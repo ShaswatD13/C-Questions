@@ -1,0 +1,39 @@
+/*
+Problem - If-Else_Steel Grade Classification
+Platform - HackerRank
+Summary - Your task is to determine the grade of steel based on the provided values of hardness, carbon content, and tensile strength.
+*/
+
+#include <stdio.h>
+
+int main() {
+    int h;
+    int t;
+    float c;
+    scanf("%d %f %d",&h,&c,&t);
+    if(h>50 && t>5600 && c<0.7){
+        printf("The grade of the steel is: 10\nAll of the conditions met.");
+    }
+    else if(h>50 && c<0.7 && t<=5600){
+        printf("The grade of the steel is: 9\nTwo conditions met.");
+    }
+    else if(c<0.7 && t>5600 && h<=50){
+        printf("The grade of the steel is: 8\nTwo conditions met.");
+    }
+    else if(h>50 && t>5600 && c>=0.7){
+        printf("The grade of the steel is: 7\nTwo conditions met.");
+    } 
+    else if(t>5600 && h<=50 && c>=0.7){
+        printf("The grade of the steel is: 6\nOnly one condition met.");
+    }
+    else if(c<0.7 && h<=50 && t<=5600){
+        printf("The grade of the steel is: 6\nOnly one condition met.");
+    }
+    else if(h>50 && c>=0.7 && t<=5600 ){
+        printf("The grade of the steel is: 6\nOnly one condition met.");
+    }   
+    else{
+        printf("The grade of the steel is: 5\nNone of the conditions met.");
+    }   
+    return 0;
+}
