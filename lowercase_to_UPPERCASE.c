@@ -16,5 +16,6 @@ int main() {
     charUpper = charLower - 32;
     printf("The uppercase of %c is %c ",charLower,charUpper);
    
+    
     return 0;
 }
