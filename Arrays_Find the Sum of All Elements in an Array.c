@@ -24,6 +24,7 @@ int main() {
         sum = sum + a[i];
     }
     printf("%lld",sum);
-  
+
+    
     return 0;
 }
