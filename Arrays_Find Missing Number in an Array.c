@@ -27,5 +27,6 @@ int main() {
     }
     int missing = sumn - sum;
     printf("%d",missing);
+    
     return 0;
 }
