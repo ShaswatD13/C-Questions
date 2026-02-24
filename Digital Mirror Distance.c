@@ -39,5 +39,6 @@ int main() {
     printf("Difference: %d\n", difference);
     printf("Even Digit Count: %d\n", evenCount);
 
+    
     return 0;
 }
