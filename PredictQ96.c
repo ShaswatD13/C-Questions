@@ -6,16 +6,14 @@ Problem - What will be the Output?
 
 int main()
 {
-    int i = 0;
+    int arr[] = {10, 20, 30, 40};
+    int *p = &arr[2];
 
-    while(i = i + 1)
-    {
-        printf("%d ", i);
-        if(i == 3)
-            break;
-    }
+    printf("%d ", p[-1]);
+    printf("%d ", p[0]);
+    printf("%d", p[1]);
 
     return 0;
 }
 
-// 1 2 3
+// 20 30 40
