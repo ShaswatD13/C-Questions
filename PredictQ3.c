@@ -10,4 +10,5 @@ int main() {
     return 0;
 }
 
+
 // 10 10 OR 20 20 {COMPILER DEPENDENT}
