@@ -6,7 +6,7 @@ Problem - What will be the Output?
 
 int main()
 {
-    
+
     int arr[] = {5, 10, 15, 20};
     int *p = arr;
 
@@ -15,5 +15,6 @@ int main()
     printf("%d", 3[p]);
 
     return 0;
+    
 }
 // 15 15 30 
