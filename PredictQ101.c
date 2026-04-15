@@ -6,6 +6,7 @@ Problem - What will be the Output?
 
 int main()
 {
+    
     int arr[] = {5, 10, 15, 20};
     int *p = arr;
 
