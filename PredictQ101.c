@@ -15,6 +15,8 @@ int main()
     printf("%d", 3[p]);
 
     return 0;
-    
+
 }
+
+
 // 15 15 30 
