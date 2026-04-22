@@ -20,4 +20,5 @@ int main()
     return 0;
 }
 
+
 // Undefined Behavior (due to multiple function calls without sequence)
